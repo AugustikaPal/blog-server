@@ -11,7 +11,7 @@ import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
-@CrossOrigin(origins = { "http://127.0.0.1:5500", "http://localhost:5500" })
+@CrossOrigin(origins = { "https://blog-client-60xvx45w8-augustika1524gmailcoms-projects.vercel.app", "http://localhost:5500" })
 @RequestMapping("/user")
 public class UserController {
 
